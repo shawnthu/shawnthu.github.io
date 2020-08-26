@@ -1,12 +1,116 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>shawn's blog</title>
-</head>
+	<head>
+		<title>shawn's blog</title>
+		<style>
+			body {
+				margin: 0;
+				background-color: #000000;
+			}
 
-<body>
-姓名：黄旭<br>
-性别：男
-</body>
+			div.root {
+				width: 800px;
+				height: 800px;
+				margin: 0 auto;
+				padding: 10px 10px 0 10px;
+				background-color: rgb(245, 245, 245);
+				/* border: 5px solid #000000; */
+			}
+
+			div.left {
+				width: 600px;
+				height: 100%;
+				/* border: 5px solid burlywood; */
+				/* margin: none; */
+				float: left;
+				background-color: white;
+			}
+
+			div.right {
+				width: 200px;
+				height: 100%;
+				/* border: 5px solid firebrick; */
+				float: right;
+				/* background-color: #B8860B; */
+			}
+
+			div.career {
+				width: 100%;
+				height: 400px;
+			}
+
+			div.project {
+				width: 100%;
+				height: 400px;
+			}
+
+			div.portrait {
+				width: 100%;
+				height: 200px;
+				background-color: rgb(66, 85, 94);
+			}
+
+			div.contact {
+				width: 100%;
+				height: 200px;
+				background-color: rgb(82, 106, 118);
+			}
+
+			div.education {
+				width: 100%;
+				height: 200px;
+				background-color: rgb(82, 106, 118);
+			}
+
+			div.hobby {
+				width: 100%;
+				height: 200px;
+				background-color: rgb(82, 106, 118);
+			}
+
+			img {
+				vertical-align: top;
+			}
+			
+			li {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+				/* text-align: left; */
+				/* list-style: outside; */
+				/* float: left; */
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div class="root">
+			<div class="left">
+				<div class="career">工作经历</div>
+				<div class="project">课外项目</div>
+			</div>
+
+			<div class="right">
+				<div class="portrait">肖像</div>
+
+				<div class="contact">
+					联系方式
+					<ul>
+						<li>
+							<!-- <img src="img/知乎icon.png" width="20px" /> -->
+							<a href="http://mrw.so/6rIIfB">shawn</a>
+						</li>
+					</ul>
+
+
+				</div>
+
+				<div class="education">教育经历</div>
+				<div class="hobby">业余爱好</div>
+			</div>
+		</div>
+
+	</body>
 
 </html>
